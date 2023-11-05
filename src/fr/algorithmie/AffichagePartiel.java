@@ -6,16 +6,16 @@ public class AffichagePartiel {
 
         // Combiner une boucle et un test de manière à n’afficher que les entiers supérieurs à 3
         System.out.println("Affichage des entiers supérieurs stricts à 3");
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > 3) {
-                System.out.println(array[i]);
+        for (int j : array) {
+            if (j > 3) {
+                System.out.println(j);
             }
         }
         // Combiner une boucle et un test de manière à n’afficher que les entiers pairs
         System.out.println("Affichage des entiers pairs");
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] %2 == 0) {
-                System.out.println(array[i]);
+        for (int j : array) {
+            if (j % 2 == 0) {
+                System.out.println(j);
             }
         }
         // Combiner une boucle et un test de manière à n’afficher que les valeurs correspondant aux index pairs
@@ -27,9 +27,9 @@ public class AffichagePartiel {
         }
         // Combiner une boucle et un test de manière à n’afficher que les entiers impairs
         System.out.println("Affichage des entiers imairs");
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] %2 == 1) {
-                System.out.println(array[i]);
+        for (int j : array) {
+            if (j % 2 == 1) {
+                System.out.println(j);
             }
         }
     }

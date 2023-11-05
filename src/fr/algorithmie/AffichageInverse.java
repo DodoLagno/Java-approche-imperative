@@ -6,8 +6,8 @@ public class AffichageInverse {
 
         // Afficher l’ensemble des éléments du tableau grâce à une boucle
         System.out.println("Affichage tableau array");
-        for (int i=0; i<array.length; i++) {
-            System.out.println(array[i]);
+        for (int k : array) {
+            System.out.println(k);
         }
         // Afficher l’ensemble des éléments dans l’ordre inverse du tableau
         System.out.println("Affichage ordre inverse tableau array");
@@ -21,8 +21,8 @@ public class AffichageInverse {
             arrayCopy[i] = array[array.length-1-i];
         }
         // Afficher le tableau arrayCopy
-        for (int i=0; i<arrayCopy.length; i++) {
-            System.out.println(arrayCopy[i]);
+        for (int j : arrayCopy) {
+            System.out.println(j);
         }
     }
 }

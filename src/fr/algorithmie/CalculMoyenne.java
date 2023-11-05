@@ -8,8 +8,8 @@ public class CalculMoyenne {
             System.out.println("moyenne des éléments du tableau");
             int somme = 0;
             int size = array.length;
-            for (int i = 0; i < size; i++) {
-                somme += array[i];
+            for (int j : array) {
+                somme += j;
             }
             double moyenne = (double) somme / size;
             System.out.println(moyenne);

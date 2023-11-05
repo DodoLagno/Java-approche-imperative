@@ -13,8 +13,8 @@ public class SommeDeTableaux {
             result[i] = array1[i]+array2[i];
         }
         System.out.println("somme des 2 tableaux");
-        for (int i = 0; i < result.length; i++) {
-            System.out.println(result[i]);
+        for (int j : result) {
+            System.out.println(j);
         }
     }
 }
